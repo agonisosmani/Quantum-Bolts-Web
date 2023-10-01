@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>My Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/styles2.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+
+<body>
+<STYLE>A {text-decoration: none;} </STYLE>
+
+<div id="wrapper">
+	
+		<div id="top">
+		
+			<div id="logo">
+				<img src="images/54230566_1526466624153831_5364859381898805248_n.jpg"/>
+			</div>
+			
+			<div id="quote">
+    			
+    			<h3>“The engineer has been, and is, a maker of history.”</h3>
+        		<p>— James Kip Finch</p>
+			
+    		</div>
+    		
+    		<div id="language">
+    			
+    			<ul>
+    				<li><a href="englsih.dwt"><img src="images/englflag.png"/></a></li>
+      				<li><a href="shqip.dwt"><img src="images/albaniaflg.png"/></a></li>
+    			</ul>
+    			
+    		
+    		</div>
+
+	
+		
+		
+		</div>
+		
+		<div id="navigation">
+		
+			<ul>
+    	
+    			<li><a href="index.html">WELCOME</a></li>
+    			<li><a href="about.html">ABOUT</a></li>
+    			<li><a href="products.html">PRODUCTS</a></li>
+    			<li><a href="engineering.html">ENGINEERING</a></li>
+    			<li><a href="contact.html">CONTACT</a></li>
+
+    		</ul>
+			
+		</div>
+
+		
+		<div id="banner">
+			
+  					<img class="mySlides" src="images/manubear.jpg"/>
+  					<img class="mySlides" src="images/new-products-v2.jpg"/>
+    				<img class="mySlides" src="images/aetna-partner-test-lab.jpg"/>
+  					<img class="mySlides" src="images/industry-industry.jpg" />
+
+				<script>
+						var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}	
+				</script>
+			<div id="subbanner">
+				<h1>Titanium Group</h1>
+				<p>Our company offers all kind of bearings such as roller bearings, friction bearings, cylindrical ones etc. We produce with the best technology nowadays. Titanium’s products are used throughout the world in automotive, truck, agricultural, aircraft, and industrial equipment and a number of other diverse applications. </p>
+
+			</div>
+
+
+			
+		</div>
+		
+		<div id="editable">
+		
+		<div id="content">
+		
+			<div id="header">		
+				<h2>A Leading Manufacturer of Quality Anti-Friction Bearings</h2>
+				<p>Titanium Group Bearing Company is a leading manufacturer of quality Anti-Friction Bearings in the industrial markets we serve.  Our anti-friction bearings permit free motion between moving and fixed parts. They are essential to mechanized equipment as they hold or guide moving machine parts and minimize friction and wear. Our quality commitment starts with our top management and is supported conscientiously by all the people in our company.We will strive to produce correctly, the first time, products and services which consistently meet or exceed, our customer's requirements and specifications.</p>
+			</div>
+			
+			<div id="products">
+			
+					<div id="product1">
+						<img src="images/ballbear.jpg" data-off="images/ballbear.jpg" data-on="images/cylindrical.png"/>
+						<h2>Ball Bearings</h2>
+						<p>Ball Bearings are very versatile. They can be designed to accommodate radial loads, axial loads and combined radial/axial loads in a wide range of operating speeds.</p>
+					</div>
+	
+
+					<div id="product2">
+						<img src="images/cylindrical.png"/>
+						<h2>Cylindrical Roller Bearings</h2>
+						<p>Cylindrical Roller Bearings are designed to carry heavy radial loads. These bearings are made with a single row, two rows, or multi-rows of rolling elements to meet an application's radial load requirement.</p>			
+					</div>
+			
+			
+					<div id="product3">
+						<img src="images/tapered.jpg"/>	
+						<h2>Tapered Roller Bearings</h2>				
+						<p>Tapered roller bearings are used in a variety of industrial applications. The tapered rollers allow the bearings to accommodate heavy radial, axial and combination loads.</p>
+					</div>
+			
+			</div>
+		</div>
+
+		<div id="sidebar">
+		
+				<h3>Events</h3>
+				<p>Titanium Group Bearing Company primarily makes heavy duty bearings that are used in various industries in the US and around the world. We organize fairs and presentation events every year, so you can follow us in social media, where we present our events.</p>
+				<p>Join us</p>
+			
+			<div id="social-media">
+				<ul>
+					<li><a href="http://www.facebook.com"><img src="images/fblogo.png"/></a></li>	
+					<li><a href="http://www.instagram.com"><img src="images/insta logo.png"/></a></li>
+					<li><a href="http://www.youtube.com"><img src="images/youtube logo.png"/></a></li>
+				</ul>
+			</div>
+			
+			<div id="made-in">
+				<p>Contact us - +38345577893</p>
+				<h4>Made in</h4>
+				<img src="images/iso9001.png"/>
+				<img src="images/kosovo.GIF"/>
+			</div>
+
+			
+			
+		</div>
+		</div>
+		
+		<div id="industries" >
+		
+			<h2>Our Industries</h2>
+			
+			<div class="container">
+				<img src="images/industry-agriculture.jpg" alt="Agriculture" class="image" style="width:319px;height:211.3px"/>
+ 			 	<div class="middle">
+    			<div class="text">Agriculture Industry</div>
+  		   	 	</div>	
+  		   	</div>	
+			<div class="container">
+				<img src="images/industry-automotive.jpg" alt="Automotive" class="image" style="width:319px;height:211.3px"/>
+ 				 <div class="middle">
+    			 <div class="text">Automotive</div>
+  		   	 	</div>
+  		   	 </div>
+			<div class="container">
+  				<img src="images/industry-defense.jpg" alt="Defense" class="image" style="width:319px;height:211.3px"/>
+ 				 <div class="middle">
+    		   	 <div class="text">Military Defense</div>
+  		   	 	</div>
+  		   	 </div>	
+			<div class="container">
+  				<img src="images/industry-industry.jpg" alt="Industry" class="image" style="width:319px;height:211.3px"/>
+ 			 	  <div class="middle">
+    		   	  <div class="text">Industry</div>
+  		   	    </div>
+  		   	 </div>		
+			<div class="container">
+				<img src="images/industry-manufacturing.jpg" alt="Manufacturing" class="image" style="width:319px;height:211.3px"/>
+ 			 	 	<div class="middle">
+    				<div class="text">Manufacturing</div>
+  		   	 	</div>
+  		   	 </div>		
+			<div class="container">
+				<img src="images/industry-mineral-exploration.jpg" alt="Minerar" class="image" style="width:319px;height:211.3px"/>
+ 				 <div class="middle">
+    		   	 <div class="text">Mineral Industry</div>
+  		   	 	</div>
+  		   	 </div>		
+			<div class="container">
+				<img src="images/industry-pumps-and-compressors.jpg" alt="Pumps" class="image" style="width:319px;height:211.3px"/>
+ 				 <div class="middle">
+    			 <div class="text">Pumps and Compressors</div>
+  		   	 	</div>
+  		   	 </div>		
+			<div class="container">
+				<img src="images/off-highway.jpg" alt="Highway" class="image" style="width:319px;height:211.3px"/>
+ 				 <div class="middle">
+    			 <div class="text">Off Highway</div>
+  		   	 	</div>		
+			</div>
+		
+
+		</div>
+			
+		  
+		<div id="footer">
+		
+			<p>Copyright &copy; All rights are reserved - Titanium Group </p>
+
+		</div>
+
+	
+	
+</div>
+
+
+
+
+</body>
+
+</html>
+

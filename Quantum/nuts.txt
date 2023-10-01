@@ -1,0 +1,22 @@
+Acorn nut (cap nut)		
+Barrel nut	
+Cage nut	
+Clip-on nut 	
+Coupling nut	
+Cross dowel	
+Flange nut 
+Knurled nut 
+Sex bolt	
+Split nut		
+Sleeve nut		
+Square nut		
+Staked/welded nut (for plastic)		
+
+
+Low or medium carbon steel
+Medium carbon steel Q&T
+Alloy steel Q&T
+
+380 MPa (55 ksi)	
+580 MPa (84 ksi)
+830 MPa (120 ksi)
